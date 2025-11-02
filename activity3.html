@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity 3: Geothermal Power Plant</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #e8f5e8, #c8e6c9);
+            min-height: 100vh;
+        }
+        nav {
+            background: linear-gradient(90deg, #4CAF50, #66BB6A);
+            padding: 15px 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            padding: 12px 20px;
+            border-radius: 25px;
+            transition: all 0.3s ease;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        nav ul li a:hover {
+            background-color: rgba(255,255,255,0.2);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        main {
+            padding: 40px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        h1 {
+            color: #2E7D32;
+            text-align: center;
+            margin-bottom: 20px;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        .section {
+            margin-bottom: 20px;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            border-left: 5px solid #4CAF50;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .section h3 {
+            color: #388E3C;
+            margin-top: 0;
+            font-size: 1.2em;
+        }
+        pre {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border: 2px solid #4CAF50;
+            border-radius: 10px;
+            font-family: monospace;
+            font-size: 16px;
+            line-height: 1.5;
+            margin: 20px 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="activity1.html">🌊 Activity 1: Tidal Power Plant</a></li>
+            <li><a href="activity2.html">🌱 Activity 2: Biomass-Based Biogas System</a></li>
+            <li><a href="activity3.html">🔥 Activity 3: Geothermal Power Plant</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Activity 3: Geothermal Power Plant</h1>
+        <img src="https://via.placeholder.com/800x400/FF5722/FFFFFF?text=Geothermal+Power+Plant" alt="Geothermal Power Plant Illustration">
+        <div class="section">
+            <h3>Source of Energy</h3>
+            <p>The geothermal power plant harnesses thermal energy from the Earth's interior, sourced from hot water or steam reservoirs beneath the surface. This renewable energy is available 24/7, making it highly reliable compared to intermittent sources like solar or wind.</p>
+        </div>
+        <div class="section">
+            <h3>Conversion Process</h3>
+            <p>The conversion process involves drilling production wells to access geothermal reservoirs. Hot water or steam is extracted and directed to drive turbines. In dry steam plants, steam directly powers turbines; in flash steam systems, high-pressure hot water is flashed into steam. The turbine rotation generates electricity via connected generators.</p>
+        </div>
+        <div class="section">
+            <h3>Output/Utilization</h3>
+            <p>The output is clean, baseload electricity that can be integrated into the grid. Spent geothermal fluid is often re-injected into the earth to maintain reservoir pressure and sustainability. A typical plant can generate 50-100 MW, sufficient for powering thousands of homes.</p>
+        </div>
+        <div class="section">
+            <h3>Real-World Application Relevance</h3>
+            <p>In real-world applications, geothermal energy is prominent in volcanic regions like Iceland, where it provides over 25% of the country's electricity. The Geysers in California, the world's largest geothermal field, has been operational for decades, demonstrating long-term viability. This technology supports rural electrification and reduces fossil fuel dependence in suitable geological areas.</p>
+            <p>Overall, geothermal power plants offer a sustainable, low-emission energy solution with minimal land use, contributing significantly to global renewable energy goals while providing stable power for communities in geothermal-rich regions.</p>
+        </div>
+        <h2>Block Diagram</h2>
+        <pre>
+Geothermal Reservoir (Hot Water/Steam)
+        |
+        v
+Production Well
+        |
+        v
+Steam/Water Extraction
+        |
+        v
+Turbine
+        |
+        v
+Generator
+        |
+        v
+Electricity Output
+        |
+        v
+Injection Well (Re-injection)
+        </pre>
+    </main>
+</body>
+</html>

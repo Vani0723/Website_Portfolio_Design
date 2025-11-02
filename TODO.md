@@ -1,0 +1,11 @@
+- [x] Create index.html with left-side navigation menu
+- [x] Create activity1.html for Tidal Power Plant (block diagram and explanation)
+- [x] Create activity2.html for Biomass-Based Biogas System (block diagram and explanation)
+- [x] Create activity3.html for Geothermal Power Plant (block diagram and explanation)
+- [x] Test the website by opening index.html in browser
+- [x] Enhance design: Add green theme background, images, restructure explanations into divs with sections
+- [x] Update index.html with improved styling and images
+- [x] Update activity1.html with images and structured explanation
+- [x] Update activity2.html with images and structured explanation
+- [x] Update activity3.html with images and structured explanation
+- [x] Final test of enhanced website
